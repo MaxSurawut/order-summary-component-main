@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Red Hat Display', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #e0e8ff;
+    background-image: url('images/pattern-background-desktop.svg');
+    background-position: left top;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+img{
+    width: 100%;
+}
+.wrapper{
+    width: 450px;
+    height: 695px;
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+.img-top img{
+    border-radius: 15px 15px 0 0;
+}
+.info-card{
+    margin-top: 2rem;
+    text-align: center;
+}
+.info-card h2{
+    color: #172a54;
+}
+.info-card p{
+    color: #737492;
+    margin:1.5rem auto ;
+    width: 80%;
+    line-height: 1.5;
+}
+.annual-plan{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: left;
+    width: 80%;
+    margin: 0 auto;
+    padding: .5rem 1rem;
+    background-color: #f8f9fe;
+    border-radius: 15px;
+}
+.annual-plan img{
+    width: 50px;
+}
+.annual-plan p{
+    color: #172a54;
+    padding-left: 1.5rem;
+    font-weight: 700;
+}
+.annual-plan p span{
+    color: #737492;
+    font-weight: 400;
+}
+.annual-plan a{
+    color: #4033cb;
+    cursor: pointer;
+}
+.annual-plan a:hover{
+    color: #766cf1;
+    text-decoration: none;
+    
+}
+.btn{
+    display: block;
+    margin: 2rem auto;
+    color: #fff;
+    background-color: #382ae1;
+    padding: 1rem ;
+    border-radius: 15px;
+    border: none;
+    width: 80%;
+    font-weight: 700;
+    box-shadow: -5px 10px 10px #dedbf8;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #766cf1;
+}
+.info-card p:last-child{
+    display: inline;
+    color: #828da9;
+    cursor: pointer;
+}
+.info-card p:last-child:hover{
+  
+    color: #172a54;
+    
+}
